@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.UniCreds.testScripts.ContactPageTest">
+        <methods>
+          <include name="_1_validateFormVisibility"/>
+          <include name="getDriver"/>
+          <include name="teardown"/>
+          <include name="_3_enterDetails"/>
+          <include name="_0_checkTitle"/>
+        </methods>
+      </class> <!-- com.UniCreds.testScripts.ContactPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

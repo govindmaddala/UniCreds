@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-UniCreds" class="navigator-link">
+              <span class="suite-name border-failed">UniCreds</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-UniCreds" class="navigator-link ">
+                    <span>C:\Users\govindmaddala\eclipse-workspace\UniCreds\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-UniCreds" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-UniCreds" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-UniCreds" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-UniCreds" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-UniCreds" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-UniCreds" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 6 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-UniCreds" class="hide-methods failed suite-UniCreds"> (hide)</a> <!-- hide-methods failed suite-UniCreds -->
+                      <a href="#" panel-name="suite-UniCreds" class="show-methods failed suite-UniCreds"> (show)</a> <!-- show-methods failed suite-UniCreds -->
+                    </span>
+                    <div class="method-list-content failed suite-UniCreds">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniCreds" title="com.UniCreds.testScripts.ContactPageTest" class="method navigator-link" hash-for-method="_2_submitDirectly">_2_submitDirectly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniCreds" title="com.UniCreds.testScripts.ContactPageTest" class="method navigator-link" hash-for-method="_3_enterDetails(cuAOr, zvrvs@gmail.com, hhhbt757@jgjghg, TrSRdTyllS, Invalid mobile format i.e alphanumeric is given)">_3_enterDetails(cuAOr, zvrvs@gmail.com, hhhbt757@jgjghg, TrSRdTyllS, Invalid mobile format i.e alphanumeric is given)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniCreds" title="com.UniCreds.testScripts.ContactPageTest" class="method navigator-link" hash-for-method="_3_enterDetails(oIVvZ, nvbbh@gmail.com, 38288, xWeFnotnxO, Mobile Number&#039;s length is less than standard format)">_3_enterDetails(oIVvZ, nvbbh@gmail.com, 38288, xWeFnotnxO, Mobile Number's length is less than standard format)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniCreds" title="com.UniCreds.testScripts.ContactPageTest" class="method navigator-link" hash-for-method="_3_enterDetails(huQRm, tfynj@gmail.com, hhhbt757@jgjghg, JnjoswObwj, Mobile number provided is &lt; 6)">_3_enterDetails(huQRm, tfynj@gmail.com, hhhbt757@jgjghg, JnjoswObwj, Mobile number provided is < 6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniCreds" title="com.UniCreds.testScripts.ContactPageTest" class="method navigator-link" hash-for-method="_3_enterDetails(, , , , Empty data set)">_3_enterDetails(, , , , Empty data set)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniCreds" title="com.UniCreds.testScripts.ContactPageTest" class="method navigator-link" hash-for-method="_4_defaultCountryCode">_4_defaultCountryCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-UniCreds -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-UniCreds" class="hide-methods passed suite-UniCreds"> (hide)</a> <!-- hide-methods passed suite-UniCreds -->
+                      <a href="#" panel-name="suite-UniCreds" class="show-methods passed suite-UniCreds"> (show)</a> <!-- show-methods passed suite-UniCreds -->
+                    </span>
+                    <div class="method-list-content passed suite-UniCreds">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniCreds" title="com.UniCreds.testScripts.ContactPageTest" class="method navigator-link" hash-for-method="_0_checkTitle">_0_checkTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniCreds" title="com.UniCreds.testScripts.ContactPageTest" class="method navigator-link" hash-for-method="_1_validateFormVisibility">_1_validateFormVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniCreds" title="com.UniCreds.testScripts.ContactPageTest" class="method navigator-link" hash-for-method="_3_enterDetails(pDiJC, omswo@gmail.com, 6779984501, KjUoKBfNRb, Valid data set)">_3_enterDetails(pDiJC, omswo@gmail.com, 6779984501, KjUoKBfNRb, Valid data set)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniCreds" title="com.UniCreds.testScripts.ContactPageTest" class="method navigator-link" hash-for-method="_3_enterDetails(uHqBd, zqfus, 008318, FklLExCBQH, Invalid email format)">_3_enterDetails(uHqBd, zqfus, 008318, FklLExCBQH, Invalid email format)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniCreds" title="com.UniCreds.testScripts.ContactPageTest" class="method navigator-link" hash-for-method="_5_checkInputBoxColorOnError">_5_checkInputBoxColorOnError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-UniCreds -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-UniCreds" class="panel UniCreds">
+          <div class="suite-UniCreds-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.UniCreds.testScripts.ContactPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="_2_submitDirectly">
+                  </a> <!-- _2_submitDirectly -->
+                  <span class="method-name">_2_submitDirectly</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.UniCreds.testScripts.ContactPageTest.checkData(ContactPageTest.java:45)
+	at com.UniCreds.testScripts.ContactPageTest._2_submitDirectly(ContactPageTest.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="_3_enterDetails(cuAOr, zvrvs@gmail.com, hhhbt757@jgjghg, TrSRdTyllS, Invalid mobile format i.e alphanumeric is given)">
+                  </a> <!-- _3_enterDetails(cuAOr, zvrvs@gmail.com, hhhbt757@jgjghg, TrSRdTyllS, Invalid mobile format i.e alphanumeric is given) -->
+                  <span class="method-name">_3_enterDetails</span>
+                  <span class="parameters">(cuAOr, zvrvs@gmail.com, hhhbt757@jgjghg, TrSRdTyllS, Invalid mobile format i.e alphanumeric is given)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.UniCreds.testScripts.ContactPageTest.checkData(ContactPageTest.java:45)
+	at com.UniCreds.testScripts.ContactPageTest._3_enterDetails(ContactPageTest.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="_3_enterDetails(oIVvZ, nvbbh@gmail.com, 38288, xWeFnotnxO, Mobile Number&#039;s length is less than standard format)">
+                  </a> <!-- _3_enterDetails(oIVvZ, nvbbh@gmail.com, 38288, xWeFnotnxO, Mobile Number's length is less than standard format) -->
+                  <span class="method-name">_3_enterDetails</span>
+                  <span class="parameters">(oIVvZ, nvbbh@gmail.com, 38288, xWeFnotnxO, Mobile Number's length is less than standard format)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.UniCreds.testScripts.ContactPageTest.checkData(ContactPageTest.java:45)
+	at com.UniCreds.testScripts.ContactPageTest._3_enterDetails(ContactPageTest.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="_3_enterDetails(huQRm, tfynj@gmail.com, hhhbt757@jgjghg, JnjoswObwj, Mobile number provided is &lt; 6)">
+                  </a> <!-- _3_enterDetails(huQRm, tfynj@gmail.com, hhhbt757@jgjghg, JnjoswObwj, Mobile number provided is < 6) -->
+                  <span class="method-name">_3_enterDetails</span>
+                  <span class="parameters">(huQRm, tfynj@gmail.com, hhhbt757@jgjghg, JnjoswObwj, Mobile number provided is < 6)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.UniCreds.testScripts.ContactPageTest.checkData(ContactPageTest.java:45)
+	at com.UniCreds.testScripts.ContactPageTest._3_enterDetails(ContactPageTest.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="_3_enterDetails(, , , , Empty data set)">
+                  </a> <!-- _3_enterDetails(, , , , Empty data set) -->
+                  <span class="method-name">_3_enterDetails</span>
+                  <span class="parameters">(, , , , Empty data set)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.UniCreds.testScripts.ContactPageTest.checkData(ContactPageTest.java:45)
+	at com.UniCreds.testScripts.ContactPageTest._3_enterDetails(ContactPageTest.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="_4_defaultCountryCode">
+                  </a> <!-- _4_defaultCountryCode -->
+                  <span class="method-name">_4_defaultCountryCode</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [India (+91)] but found [Bhutan (+975)]
+	at com.UniCreds.testScripts.ContactPageTest._4_defaultCountryCode(ContactPageTest.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UniCreds-class-failed -->
+          <div class="suite-UniCreds-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.UniCreds.testScripts.ContactPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="_0_checkTitle">
+                  </a> <!-- _0_checkTitle -->
+                  <span class="method-name">_0_checkTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="_1_validateFormVisibility">
+                  </a> <!-- _1_validateFormVisibility -->
+                  <span class="method-name">_1_validateFormVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="_3_enterDetails(pDiJC, omswo@gmail.com, 6779984501, KjUoKBfNRb, Valid data set)">
+                  </a> <!-- _3_enterDetails(pDiJC, omswo@gmail.com, 6779984501, KjUoKBfNRb, Valid data set) -->
+                  <span class="method-name">_3_enterDetails</span>
+                  <span class="parameters">(pDiJC, omswo@gmail.com, 6779984501, KjUoKBfNRb, Valid data set)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="_3_enterDetails(uHqBd, zqfus, 008318, FklLExCBQH, Invalid email format)">
+                  </a> <!-- _3_enterDetails(uHqBd, zqfus, 008318, FklLExCBQH, Invalid email format) -->
+                  <span class="method-name">_3_enterDetails</span>
+                  <span class="parameters">(uHqBd, zqfus, 008318, FklLExCBQH, Invalid email format)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="_5_checkInputBoxColorOnError">
+                  </a> <!-- _5_checkInputBoxColorOnError -->
+                  <span class="method-name">_5_checkInputBoxColorOnError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UniCreds-class-passed -->
+        </div> <!-- panel UniCreds -->
+        <div panel-name="test-xml-UniCreds" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\govindmaddala\eclipse-workspace\UniCreds\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;UniCreds&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.UniCreds.testScripts.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ContactPageTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.UniCreds.testScripts.ContactPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ContactPageTest --&gt;
+&lt;/suite&gt; &lt;!-- UniCreds --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-UniCreds" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for UniCreds</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ContactPageTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-UniCreds" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for UniCreds</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-UniCreds" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for UniCreds</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_UniCreds');
+function tableData_UniCreds() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, '_5_checkInputBoxColorOnError')
+data.setCell(0, 2, 'com.UniCreds.testScripts.ContactPageTest')
+data.setCell(0, 3, 3062);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, '_3_enterDetails')
+data.setCell(1, 2, 'com.UniCreds.testScripts.ContactPageTest')
+data.setCell(1, 3, 1090);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, '_3_enterDetails')
+data.setCell(2, 2, 'com.UniCreds.testScripts.ContactPageTest')
+data.setCell(2, 3, 551);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, '_3_enterDetails')
+data.setCell(3, 2, 'com.UniCreds.testScripts.ContactPageTest')
+data.setCell(3, 3, 538);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, '_3_enterDetails')
+data.setCell(4, 2, 'com.UniCreds.testScripts.ContactPageTest')
+data.setCell(4, 3, 489);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, '_3_enterDetails')
+data.setCell(5, 2, 'com.UniCreds.testScripts.ContactPageTest')
+data.setCell(5, 3, 484);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, '_3_enterDetails')
+data.setCell(6, 2, 'com.UniCreds.testScripts.ContactPageTest')
+data.setCell(6, 3, 448);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, '_4_defaultCountryCode')
+data.setCell(7, 2, 'com.UniCreds.testScripts.ContactPageTest')
+data.setCell(7, 3, 368);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, '_2_submitDirectly')
+data.setCell(8, 2, 'com.UniCreds.testScripts.ContactPageTest')
+data.setCell(8, 3, 127);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, '_1_validateFormVisibility')
+data.setCell(9, 2, 'com.UniCreds.testScripts.ContactPageTest')
+data.setCell(9, 3, 66);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, '_0_checkTitle')
+data.setCell(10, 2, 'com.UniCreds.testScripts.ContactPageTest')
+data.setCell(10, 3, 33);
+window.suiteTableData['UniCreds']= { tableData: data, tableDiv: 'times-div-UniCreds'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-UniCreds">
+              </div> <!-- times-div-UniCreds -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-UniCreds" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for UniCreds</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-UniCreds" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-UniCreds" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.UniCreds.testScripts.ContactPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">_0_checkTitle</span>
+                <span class="method-start">5184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">_1_validateFormVisibility</span>
+                <span class="method-start">5229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">_2_submitDirectly</span>
+                <span class="method-start">5298 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">_3_enterDetails(, , , , Empty data set)</span>
+                <span class="method-start">5720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">_3_enterDetails(pDiJC, omswo@gmail.com, 6779984501, KjUoKBfNRb, Valid data set)</span>
+                <span class="method-start">6385 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">_3_enterDetails(oIVvZ, nvbbh@gmail.com, 38288, xWeFnotnxO, Mobile Number's length is less than standard format)</span>
+                <span class="method-start">7476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">_3_enterDetails(uHqBd, zqfus, 008318, FklLExCBQH, Invalid email format)</span>
+                <span class="method-start">8219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">_3_enterDetails(cuAOr, zvrvs@gmail.com, hhhbt757@jgjghg, TrSRdTyllS, Invalid mobile format i.e alphanumeric is given)</span>
+                <span class="method-start">8773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">_3_enterDetails(huQRm, tfynj@gmail.com, hhhbt757@jgjghg, JnjoswObwj, Mobile number provided is < 6)</span>
+                <span class="method-start">9403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">_4_defaultCountryCode</span>
+                <span class="method-start">10077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">_5_checkInputBoxColorOnError</span>
+                <span class="method-start">10611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">13677 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UniCreds">
+<listeners>
+	<listener class-name="com.UniCreds.testScripts.Listener"/>
+</listeners>
+  <test thread-count="5" name="ContactPageTest">
+    <classes>
+      <class name="com.UniCreds.testScripts.ContactPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

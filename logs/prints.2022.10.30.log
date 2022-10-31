@@ -1,0 +1,6 @@
+21:07:38.627 [main] INFO  com.UniCreds.testScripts.ContactPageTest - URL is passed
+21:07:38.708 [main] INFO  com.UniCreds.testScripts.ContactPageTest - Page title is checked successfully
+21:07:38.786 [main] INFO  com.UniCreds.testScripts.ContactPageTest - Form visibility on page is checked successfully
+21:07:38.914 [main] INFO  com.UniCreds.testScripts.ContactPageTest - Failed: Direct Submission
+21:07:39.700 [main] INFO  com.UniCreds.testScripts.ContactPageTest - Failed: Empty data set
+21:07:40.966 [main] INFO  com.UniCreds.testScripts.ContactPageTest - Passed : Valid data set
